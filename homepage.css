@@ -71,4 +71,14 @@ margin-left: 10px;
 .tanggal {
     margin-left: 5px;
     font-size: 12px;
+    font-weight: bold;
+}
+#fotoartikel{
+    display: inline;
+    width: 350px;
+    height: auto;
+}
+#artikel{
+    display: inline;
+    float: right;
 }
