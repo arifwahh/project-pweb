@@ -21,7 +21,7 @@ body{
 .menu{
     display: inline;
     margin-left: 30px;
-    margin-top: 20px;
+    padding-top: 20px;
     font-size: 22px;
     color: white;
     stroke: black;
@@ -49,4 +49,26 @@ body{
     height: 50px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
+}
+
+.labelkiat{
+    height: 40px;
+    width: 250px;
+    margin-bottom: 30px;
+    border-top-right-radius: 25px;
+    background-color: #197b30;
+
+}
+.kiat{
+    font-size: 20px;
+    margin-left: 50px;
+    padding-top: 10px;
+    color: white;
+}
+.judulberita{
+margin-left: 10px;
+}
+.tanggal {
+    margin-left: 5px;
+    font-size: 12px;
 }
