@@ -43,6 +43,19 @@
                 <p id="penulis">penulis</p>
             </div>
             <hr>
+            <div class="container-komen"> 
+                <div id="content-komentar">
+                </div>
+                <label for="Nama">Nama : </label>
+                <br>
+                <input name="Nama" id="usernamebox" value="" type="text">
+                <br><br>
+                <label for="komen">Komentar : </label>
+                <br>
+                <input name="komen" id="komenBox" value="" type="text">
+                <br><br>
+                <button id="komentar">Komentar</button>
+            </div>
             
         </div>
         
@@ -56,6 +69,25 @@
         
         
     </div>
-    
+
 </body>
+<script>
+    let inputUser = document.querySelector('#usernamebox')
+    let btnKomen = document.querySelector("#komentar")
+    let inputKomen = document.querySelector("#komenBox")
+    let contentKomentar = document.querySelector('#content-komentar')
+    let count = "0"
+    let container = document.querySelector('.container')
+    if(contentKomentar.childNodes.length < 2){
+        contentKomentar.innerHTML += "<p class='pemberitahuan'>Belum ada komentar</p> "
+    }
+    btnKomen.addEventListener('click',function(){
+        if (count == '0'){contentKomentar.removeChild(contentKomentar.childNodes[1])
+        count = "1"
+        }
+        console.log(contentKomentar.childNodes)
+        contentKomentar.innerHTML += "<p class='Nama'>"+inputUser.value+"</p><br>"
+        contentKomentar.innerHTML += "<p>"+inputKomen.value+"</p><br><hr> "
+})
+</script>
 </html>

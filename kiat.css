@@ -7,7 +7,7 @@ body{
    border-top-left-radius: 25px;
    border-top-right-radius: 25px;
    width: 75%;
-   height:3600px;
+   height:4000px;
    margin-left: 150px;
    margin-top: 100px;
 }
@@ -126,4 +126,29 @@ body{
     text-align: center;
     font-size: 12px;
     opacity: 70%;
+}
+.content-komentar,label,#usernamebox,#komenBox,#komentar{
+    margin-left: 20px;
+}
+#komenBox{
+width: 500px;
+height: 150px;
+}
+.container-komen{
+    border: 1px solid black;
+    background-color:wheat;
+    padding: 15px;
+}
+.Nama{
+    font-size: 24px;
+    font-weight: bold;
+}
+#mengatakan{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.pemberitahuan{
+    font-size: 40px;
+    font-weight: bold;
 }
